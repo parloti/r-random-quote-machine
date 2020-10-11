@@ -1,0 +1,42 @@
+html, body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.card {
+    max-width: 30rem;
+}
+
+.share .btn-secondary,
+.share .btn-secondary:hover,
+.btn-secondary .fa,
+.btn-secondary.new-quote,
+.btn-secondary.new-quote:hover {
+    border: none;
+}
+
+*:focus,
+.btn-secondary:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.share .btn-secondary, .share .btn-secondary:hover {
+    padding: 0;
+    margin-right: 10px;
+    -webkit-appearance: unset;
+    color: inherit;
+    background: none;
+}
+
+.btn-secondary .fa {
+    font-size: 300%;
+}
+
+.btn-secondary span:hover, .btn-secondary.new-quote:hover {
+    opacity: .6;
+}
+
+.btn-secondary.new-quote, .btn-secondary.new-quote:hover {
+    color: white;
+}
