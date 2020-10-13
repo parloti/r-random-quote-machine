@@ -1,1 +1,1 @@
-const projectName = 'random-quote-machine';
+var projectName = 'random-quote-machine';
